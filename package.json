@@ -1,0 +1,22 @@
+{
+  "name": "loopback-deep-save",
+  "version": "0.0.1",
+  "description": "Module to deep save element in loopback",
+  "main": "src/deep-save.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "loopback",
+    "deep-save"
+  ],
+  "author": "Thibault Coudray",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.16.4"
+  }
+}
