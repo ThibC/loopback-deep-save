@@ -1,7 +1,7 @@
 {
   "name": "loopback-deep-save",
   "version": "0.0.1",
-  "description": "Module to deep save element in loopback",
+  "description": "Module to deep save element in Loopback",
   "main": "src/deep-save.js",
   "directories": {
     "test": "test"
