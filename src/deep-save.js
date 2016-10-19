@@ -85,8 +85,7 @@ module.exports = function(Model){
         return Promise.all(promises);
       })
       .then(function(upatedRelations){
-        var instanceId = upatedRelations[0];
-        return Model.findById(instanceId, {include: _.keys(instanceRelations)});
+        return Model.findById(upatedRelations[0], {include: _.keys(instanceRelations)});
       })
       .then(function(fullSavedInstanceWithUpdatedRelations){
         return resolve(fullSavedInstanceWithUpdatedRelations);
